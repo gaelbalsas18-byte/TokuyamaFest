@@ -64,7 +64,7 @@ export default function Programa() {
 
       {/* Background */}
         <Image
-          src="/logos/Inicio 2.jpg" // tu imagen
+          src="/Logos/lista.jpg" // tu imagen
           alt="Fondo Programa Tokuyama Fest"
           fill
           priority
@@ -109,7 +109,7 @@ export default function Programa() {
                   <motion.div
                     key={index}
                     layout
-                    className={`rounded-4xl overflow-hidden border transition-all duration-300
+                    className={`rounded-3xl overflow-hidden border transition-all duration-300
                     ${isOpen ? "border-white bg-white/8" : "border-white bg-transparent"}
                     hover:border-white hover:bg-white/5
                   `}
@@ -198,7 +198,7 @@ export default function Programa() {
           </div>
 
           {/* PANEL DE IMAGENES */}
-         <div className="relative w-[820px] h-[640px] rounded-3xl overflow-hidden shadow-xl">
+         <div className="relative w-[620px] h-[440px] rounded-3xl overflow-hidden shadow-xl">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={activo ?? "default"}
