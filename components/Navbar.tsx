@@ -50,7 +50,7 @@ export default function Navbar(){
           repeat: Infinity,
         }}
       />
-            <div className="relative max-w-7xl mx-auto px-10 h-20 flex items-center">
+            <div className="relative max-w-6xl mx-auto px-10 h-20 flex items-center">
                 <div className="flex items-center gap-2 top-10">
                       <Image
                         src="/Logos/BalsasTrans.png"
@@ -69,11 +69,11 @@ export default function Navbar(){
                         priority
                     />
                 </div>
-                <div className="hidden md:flex gap-20 text-xl font-medium absolute left-1/2 -translate-x-1/2 text-white">
-                    <a href="#ponentes" className="hover:text-white text-xl font-semibold">PONENTES</a>
-                    <a href="#programa" className="hover:text-white text-xl font-semibold">PROGRAMA</a>
-                    <a href="#ubicacion" className="hover:text-white text-xl font-semibold">UBICACIÓN</a>
-                    <a href="#registro" className="hover:text-white text-xl font-semibold">REGISTRO</a>
+                <div className="hidden md:flex gap-20 text-lg font-medium absolute left-1/2 -translate-x-1/2 text-white">
+                    <a href="#ponentes" className="hover:text-white text-lg font-semibold">PONENTES</a>
+                    <a href="#programa" className="hover:text-white text-lg font-semibold">PROGRAMA</a>
+                    <a href="#ubicacion" className="hover:text-white text-lg font-semibold">UBICACIÓN</a>
+                    <a href="#registro" className="hover:text-white text-lg font-semibold">REGISTRO</a>
                 </div>
             </div>
         </motion.nav>
