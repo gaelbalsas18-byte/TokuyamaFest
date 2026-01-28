@@ -39,7 +39,7 @@ export default function Hero() {
               ease: "easeInOut",
             },
           }}
-          className="relative w-[280px] md:w-[420px] lg:w-[520px] -ml-10 lg:-ml-24 left-50 top-20"
+          className="relative w-[280px] md:w-[420px] lg:w-[520px] -ml-10 lg:-ml-24 left-100 top-20"
         >
           <Image
             src="/Logos/Logot.png"
