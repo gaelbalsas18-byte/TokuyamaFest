@@ -100,7 +100,7 @@ export default function Registro() {
     <section id="registro" className="relative py-32 px-6 overflow-hidden">
       {/* Background */}
       <Image
-        src="/logos/pie.png"
+        src="/Logos/pie.png"
         alt="Registro Tokuyama Fest"
         fill
         priority
