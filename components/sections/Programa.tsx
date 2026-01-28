@@ -198,7 +198,7 @@ export default function Programa() {
           </div>
 
           {/* PANEL DE IMAGENES */}
-         <div className="relative w-[620px] h-[620px] rounded-3xl overflow-hidden shadow-xl">
+         <div className="relative w-[520px] h-[620px] rounded-3xl overflow-hidden shadow-xl">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={activo ?? "default"}

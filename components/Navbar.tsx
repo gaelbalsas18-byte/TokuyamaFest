@@ -50,7 +50,7 @@ export default function Navbar(){
           repeat: Infinity,
         }}
       />
-            <div className="relative max-w-6xl mx-auto px-10 h-20 flex items-center">
+            <div className="relative max-w-7xl mx-auto px-10 h-20 flex items-center">
                 <div className="flex items-center gap-2 top-10">
                       <Image
                         src="/Logos/BalsasTrans.png"
