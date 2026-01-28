@@ -53,7 +53,7 @@ export default function Navbar(){
             <div className="relative max-w-7xl mx-auto px-10 h-20 flex items-center">
                 <div className="flex items-center gap-2 top-10">
                       <Image
-                        src="#"
+                        src="/Logos/BalsasTrans.png"
                         alt="Tokuyama Fest"
                         width={70}
                         height={50}
