@@ -16,9 +16,7 @@ export default function Home() {
                             {/*Seccion Ubicacion*/}
                                   <Ubicacion/>
                                   {/*Seccion Registro*/}
-                                        <Registro/>
-
-                      
+                                        <Registro/>             
     </main>
   );
 }

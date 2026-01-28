@@ -9,7 +9,7 @@ export default function Hero() {
 
       {/* Background */}
       <Image
-        src="/logos/apertura.jpg"
+        src="/Logos/apertura.jpg"
         alt="Tokuyama Fest"
         fill
         priority
@@ -42,7 +42,7 @@ export default function Hero() {
           className="relative w-[280px] md:w-[420px] lg:w-[920px] -ml-10 lg:-ml-24 left-45 top-20"
         >
           <Image
-            src="/logos/TF LOGO.png"
+            src="/Logos/TF LOGO.png"
             alt="Tokuyama Fest Hero"
             width={1500}
             height={500}
