@@ -8,7 +8,7 @@ const programa = [
   {
     dia: "Día 1 - Tokuyama-Fest",
     fecha: "Lunes 08 Junio 2026",
-    imagen: "/programa/Dia1.jpg",
+    imagen: "/Programa/Dia1.jpg",
     actividades: [
       { hora: "07:00 - 09:00", titulo: "Registro" },
       { hora: "09:00 - 10:00", titulo: "Dr.Nijtomi - Lanzamiento Omnichroma" },
@@ -25,7 +25,7 @@ const programa = [
    {
     dia: "Día 2 - Tokuyama-Fest",
     fecha: "Martes 09 Junio 2026",
-    imagen: "/programa/Dia2.jpg",
+    imagen: "/Programa/Dia2.jpg",
     actividades: [
       { hora: "08:00 - 09:00", titulo: "Registro" },
       { hora: "09:00 - 11:00", titulo: "Hands on - Newton Fahl" },
@@ -43,7 +43,7 @@ const programa = [
   {
     dia: "Día 3 - Tokuyama-Fest",
     fecha: "Miercoles 10 Junio 2026",
-    imagen: "/programa/Dia3.jpg", 
+    imagen: "/Programa/Dia3.jpg", 
     actividades: [
       { hora: "09:30 - 10:00", titulo: "Recepción" },
       { hora: "10:00 - 13:00", titulo: "Concurso" },
@@ -100,7 +100,7 @@ export default function Programa() {
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
           
           {/* LISTA PROGRAMA */}
-          <div className="lg:max-w-xl">
+          <div className="lg:max-w-lg">
             <div className="space-y-8">
               {programa.map((dia, index) => {
                 const isOpen = activo === index;
