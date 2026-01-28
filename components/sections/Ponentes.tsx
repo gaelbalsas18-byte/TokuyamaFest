@@ -148,8 +148,8 @@ export default function Ponentes() {
 
             {/* MODAL */}
             <motion.div
-              initial={{ scale: 0.85, opacity: 0 }}
-              animate={{ scale: 0.8, opacity: 1 }}
+              initial={{ scale: 0.90, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.6, opacity: 0 }}
               transition={{ duration: 0.35, ease: "easeOut" }}
               className="fixed inset-0 z-50 flex items-center justify-center px-[6vw]"
