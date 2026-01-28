@@ -102,7 +102,7 @@ export default function Ponentes() {
           {ponentes.map((ponente) => (
             <motion.div
               key={ponente.id}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 200 }}
               onClick={() => setActivo(ponente)}
               className="cursor-pointer rounded-3xl overflow-hidden bg-gradient-to-b from-purple-500 to-blue-600"
@@ -149,8 +149,8 @@ export default function Ponentes() {
             {/* MODAL */}
             <motion.div
               initial={{ scale: 0.85, opacity: 0 }}
-              animate={{ scale: 1.4, opacity: 1 }}
-              exit={{ scale: 1.5, opacity: 0 }}
+              animate={{ scale: 0.8, opacity: 1 }}
+              exit={{ scale: 0.6, opacity: 0 }}
               transition={{ duration: 0.35, ease: "easeOut" }}
               className="fixed inset-0 z-50 flex items-center justify-center px-[6vw]"
             >
