@@ -50,12 +50,12 @@ export default function Navbar(){
           repeat: Infinity,
         }}
       />
-            <div className="relative max-w-8xl mx-auto px-10 h-20 flex items-center">
+            <div className="relative max-w-7xl mx-auto px-10 h-20 flex items-center">
                 <div className="flex items-center gap-2 top-10">
                       <Image
                         src="/Logos/BalsasTrans.png"
                         alt="Tokuyama Fest"
-                        width={90}
+                        width={70}
                         height={50}
                         priority
                     />
@@ -64,7 +64,7 @@ export default function Navbar(){
                     <Image
                         src="/Logos/Tokuyamat.png"
                         alt="Tokuyama Fest"
-                        width={180}
+                        width={160}
                         height={100}
                         priority
                     />
