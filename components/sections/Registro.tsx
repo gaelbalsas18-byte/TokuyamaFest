@@ -195,7 +195,7 @@ export default function Registro() {
                 <input type="checkbox" required
                   onChange={(e) => setForm({ ...form, privacidad: e.target.checked })} />
                 Acepto el{""}
-                <a href="#" className="underline hover:text-green-400">
+                <a href="https://balsasdental.com.mx/wp-content/uploads/2025/12/AV-PRIVACIDAD-USO-DE-IMAGEN-Y-C-ATOTIZACION-CLIENTES.pdf" className="underline hover:text-green-400">
                   Aviso de privacidad
                 </a>
               </label>
