@@ -42,10 +42,10 @@ export default function Hero() {
           className="
             relative 
             mx-auto
-            w-[75%] 
-            sm:w-[60%] 
-            md:w-[50%] 
-            lg:w-[45%]
+            w-[85%] 
+            sm:w-[65%] 
+            md:w-[55%] 
+            lg:w-[50%]
             mt-16
           "
         >
@@ -53,7 +53,7 @@ export default function Hero() {
             src="/Logos/Logot.png"
             alt="Tokuyama Fest Hero"
             width={1600}
-            height={700}
+            height={800}
             priority
             className="w-full h-auto top-10"
           />
