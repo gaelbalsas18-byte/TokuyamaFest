@@ -14,6 +14,7 @@ const ponentes = [
       "La Dra. Tania Anduaga es licenciada en odontología, egresada del Instituto Politécnico Nacional (IPN). Su ejercicio profesional se orienta a la odontología estética y a la rehabilitación oral bajo principios de mínima invasión y preservación de la estructura dental, integrando criterios clínicos basados en la evidencia científica. Cuenta con experiencia en la práctica privada en la Ciudad de México y participa de manera constante en actividades de educación continua. Ha colaborado como ponente en cursos, diplomados y congresos odontológicos, contribuyendo a la actualización académica de profesionales de la salud bucal. Asimismo, desarrolla labores de divulgación académica a través de plataformas digitales, donde difunde casos clínicos y contenidos educativos enfocados en el fortalecimiento de la práctica clínica y la formación continua del cirujano dentista.",
     
     },
+    
   {
     id: 2,
     nombre: "Dr. Noburo",
@@ -23,6 +24,7 @@ const ponentes = [
     descripcion:
       "El Dr. Noboru Takahashi es cirujano dentista egresado de la Tokyo Medical and Dental University, institución en la que también se desempeña como profesor clínico y speaker certificado. Realiza práctica privada en Tokio, con un enfoque especializado en odontología restauradora y estética, tanto en restauraciones directas como indirectas. Es creador de la resina Palfique Asteria y speaker certificado de Tokuyama Dental, participando activamente en el desarrollo, investigación y difusión de materiales dentales de alta estética. Reconocido como conferencista internacional, es autor de publicaciones clínicas y su trabajo se distingue por la integración precisa de ciencia, técnica y estética, consolidándolo como una referencia en la odontología contemporánea.",
   },
+
   {
     id: 3,
     nombre: "Dr. Newton",
