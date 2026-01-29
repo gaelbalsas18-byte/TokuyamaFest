@@ -30,7 +30,7 @@ const ponentes = [
     imagenModal: "/Ponentes/Newton2.jpg",
     nombreImagen:"/Ponentes/NombreNewton.png",
     descripcion:
-      "",
+      "El Dr. Newton Fahl, Jr., DDS, MS, es un referente global en odontología estética, reconocido por la creación de la Técnica de Estratificación Policromática (PCL) y por sus innovaciones en carillas e incrustaciones, que han transformado la práctica de las restauraciones directas e indirectas. Es egresado de la Universidad Estatal de Londrina, Brasil (1987), y obtuvo el título de Especialista en Odontología Operativa y el grado de Máster por la Universidad de Iowa, EE. UU. (1989). Cuenta con más de 30 años de trayectoria, durante los cuales ha formado a miles de odontólogos alrededor del mundo, fusionando el rigor científico con una sensibilidad artística única. Es miembro de la Academia Americana de Odontología Estética (AAED) y de la Fundación MCG-Hinman, y se desempeña como profesor adjunto de Odontología Operativa en la Universidad de Carolina del Norte (UNC). Ha sido reconocido con el Premio Presidencial al Mejor Profesor por la AAED en 2008 y con el Premio a la Excelencia en la Educación Dental Cosmética por la AACD en 2011. Es autor de numerosas publicaciones científicas sobre técnicas adhesivas, del libro “Carillas de Resina Compuesta: Técnica Directa-Indirecta” (2020), miembro del consejo editorial de diversas revistas internacionales, y co-creador junto a Tokuyama Dental de la resina ESTELITE OMEGA, consolidando su influencia en el desarrollo de materiales de alta estética.",
   },
 
   {
