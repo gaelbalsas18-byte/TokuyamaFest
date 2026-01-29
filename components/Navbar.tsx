@@ -69,11 +69,11 @@ export default function Navbar(){
                         priority
                     />
                 </div>
-                <div className="hidden md:flex gap-20 text-lg font-medium absolute left-1/2 -translate-x-1/2 text-white">
-                    <a href="#ponentes" className="hover:text-white text-lg font-semibold">PONENTES</a>
-                    <a href="#programa" className="hover:text-white text-lg font-semibold">PROGRAMA</a>
-                    <a href="#ubicacion" className="hover:text-white text-lg font-semibold">UBICACIÓN</a>
-                    <a href="#registro" className="hover:text-white text-lg font-semibold">REGISTRO</a>
+                <div className="hidden md:flex gap-20 text-base font-medium absolute left-1/2 -translate-x-1/2 text-white">
+                    <a href="#ponentes" className="hover:text-white text-base font-semibold">PONENTES</a>
+                    <a href="#programa" className="hover:text-white text-base font-semibold">PROGRAMA</a>
+                    <a href="#ubicacion" className="hover:text-white text-base font-semibold">UBICACIÓN</a>
+                    <a href="#registro" className="hover:text-white text-base font-semibold">REGISTRO</a>
                 </div>
             </div>
         </motion.nav>

@@ -48,12 +48,12 @@ export default function Ubicacion() {
               Centro Libanés
             </h3>
 
-            <p className="text-xl md:text-2xl leading-relaxed text-purple-800 mb-6">
+            <p className="text-base md:text-2xl leading-relaxed text-purple-800 mb-6">
               El Tokuyama Fest se llevará a cabo en el <strong>Centro Libanés</strong>,
               uno de los recintos más prestigiosos de la Ciudad de México.
             </p>
 
-            <p className="text-xl md:text-2xl leading-relaxed text-purple-800 mb-10">
+            <p className="text-base md:text-2xl leading-relaxed text-purple-800 mb-10">
               Vive una experiencia académica y profesional en un entorno diseñado
               para el aprendizaje, la innovación y el networking con especialistas
               internacionales.
@@ -63,7 +63,7 @@ export default function Ubicacion() {
               href="https://www.google.com/maps?sca_esv=0b64f9733fed06e0&rlz=1C5CHFA_enMX1169MX1169&output=search&q=centro+libanes+hermes&source=lnms&fbs=ADc_l-bpk8W4E-qsVlOvbGJcDwpn60DczFdcvPnuv8WQohHLTVlJczjYHjSUbzKnD50j85o9uqNQ6Ddau7Ovlhim7v363JyIeYJw9z5jZg9KJr0EUYgIwGa4uK1TVT3EDeE6595ypyjaKmarHgR6lwGkESOvwbWMWb3z79CHH-5BAF7NRngpFgvb_xzykrlTeyHklYG11-wobGRDyCI8_Fj4tZl6sD58Op4r2iC_QWDX5yTq1jMs-wQ&entry=mc&ved=1t:200715&ictx=111"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-3 border-2 border-purple-800 text-purple-800 text-lg uppercase tracking-wide rounded-xl hover:bg-purple-800 hover:text-white transition-all duration-300"
+              className="inline-block px-8 py-3 border-2 border-purple-800 text-purple-800 text-base uppercase tracking-wide rounded-xl hover:bg-purple-800 hover:text-white transition-all duration-300"
             >
               Ver ubicación del evento
             </a>
