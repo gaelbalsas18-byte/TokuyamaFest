@@ -39,7 +39,7 @@ export default function Hero() {
               ease: "easeInOut",
             },
           }}
-          className="relative w-[280px] md:w-[420px] lg:w-[520px] -ml-10 lg:-ml-24 left-100 top-20"
+          className="relative w-[280px] md:w-[480px] lg:w-[580px] -ml-10 lg:-ml-24 left-100 top-20"
         >
           <Image
             src="/Logos/Logot.png"
@@ -62,7 +62,7 @@ export default function Hero() {
               y: [0, -15, 0],
             }}
             transition={{ duration: 1.5 }}
-            className="mt-10 md:text-xl text-center text-white mx-auto text-lg leading-[1.6]"
+            className="mt-10 md:text-xl text-center text-white mx-auto text-base leading-[1.6]"
           >
             Tokuyama Fest es un encuentro odontológico concebido como un puente entre México y el conocimiento global. Un espacio donde ponentes internacionales de alto nivel comparten su experiencia clínica, técnicas avanzadas y visión profesional con la comunidad odontológica, fomentando el intercambio de ideas y 
             aprendizajes que trascienden la práctica clínica.
