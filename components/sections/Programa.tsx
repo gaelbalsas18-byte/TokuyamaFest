@@ -81,7 +81,7 @@ export default function Programa() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-2xl font-bold text-white text-center"
+          className="text-3xl md:text-3xl font-bold text-white text-center"
         >
           Programa.
         </motion.h2>
