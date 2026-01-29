@@ -60,7 +60,7 @@ export default function Hero() {
         </motion.div>
 
         {/* TEXTO */}
-        <div className="mt-6 sm:mt-8 md:mt-10 max-w-prose mx-auto text-white">
+        <div className="mt-6 sm:mt-8 max-w-prose mx-auto text-white">
 
           <motion.h2
             initial={{ opacity: 0, y: 40 }}
