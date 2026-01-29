@@ -31,7 +31,7 @@ export default function Ubicacion() {
           >
             <iframe
               src="https://www.openstreetmap.org/export/embed.html?bbox=-99.18148308992387%2C19.362712961598092%2C-99.17968064546587%2C19.36417811427046&amp;layer=mapnik"
-              className="w-full h-[420px]"
+              className="w-full h-[220px]"
               loading="lazy"
             />
           </motion.div>
