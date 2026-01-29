@@ -21,7 +21,6 @@ export default function Hero() {
 
       {/* CONTENIDO */}
       <div className="relative z-10 max-w-7xl mx-auto px-5 w-full text-center pt-9 md:pt-18">
-        {/* 👆 ESTE pt-16 / pt-24 es el control principal */}
 
         {/* IMAGEN SUPERIOR */}
         <motion.div
