@@ -71,8 +71,8 @@ export default function Hero() {
             transition={{ duration: 1.5 }}
             className="
               text-base 
-              sm:text-lg 
-              md:text-xl 
+              sm:text-base 
+              md:text-base
               leading-relaxed
             "
           >
