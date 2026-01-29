@@ -44,16 +44,16 @@ export default function Ubicacion() {
             viewport={{ once: true }}
             className="text-purple-800"
           >
-            <h3 className="text-3xl md:text-3xl font-bold mb-6">
+            <h3 className="text-3xl md:text-2xl font-bold mb-6">
               Centro Libanés
             </h3>
 
-            <p className="text-base md:text-xl leading-relaxed text-purple-800 mb-6">
+            <p className="text-base md:text-base leading-relaxed text-purple-800 mb-6">
               El Tokuyama Fest se llevará a cabo en el <strong>Centro Libanés</strong>,
               uno de los recintos más prestigiosos de la Ciudad de México.
             </p>
 
-            <p className="text-base md:text-xl leading-relaxed text-purple-800 mb-10">
+            <p className="text-base md:text-base leading-relaxed text-purple-800 mb-10">
               Vive una experiencia académica y profesional en un entorno diseñado
               para el aprendizaje, la innovación y el networking con especialistas
               internacionales.
