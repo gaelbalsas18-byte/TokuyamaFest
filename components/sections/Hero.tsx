@@ -53,7 +53,7 @@ export default function Hero() {
             src="/Logos/Logot.png"
             alt="Tokuyama Fest Hero"
             width={1600}
-            height={800}
+            height={1000}
             priority
             className="w-full h-auto top-10"
           />
