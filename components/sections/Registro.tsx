@@ -115,18 +115,18 @@ export default function Registro() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-4xl md:text-5xl font-bold mb-7"
+            className="text-3xl md:text-5xl font-bold mb-7"
           >
             Registro Tokuyama Fest
           </motion.h2>
 
-          <p className="text-lg md:text-2xl leading-relaxed opacity-90 mb-7">
+          <p className="text-base md:text-base leading-relaxed opacity-90 mb-7">
             Vive una experiencia única diseñada para profesionales de la
             odontología que buscan actualizarse, crecer y conectar con los
             mejores especialistas del sector.
           </p>
 
-          <p className="text-lg md:text-2xl leading-relaxed opacity-90">
+          <p className="text-base md:text-base leading-relaxed opacity-90">
             Ingresa tu código de acceso para completar tu registro.
           </p>
         </div>
