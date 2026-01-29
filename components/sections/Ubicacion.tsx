@@ -13,7 +13,7 @@ export default function Ubicacion() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-7xl font-bold text-center text-purple-800"
+          className="text-2xl md:text-2xl font-bold text-center text-purple-800"
         >
           Ubicación.
         </motion.h2>

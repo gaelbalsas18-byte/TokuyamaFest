@@ -81,7 +81,7 @@ export default function Programa() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-7xl font-bold text-white text-center"
+          className="text-3xl md:text-2xl font-bold text-white text-center"
         >
           Programa.
         </motion.h2>
@@ -90,7 +90,7 @@ export default function Programa() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="mt-10 max-w-6xl md:text-xl text-center text-white mx-auto text-xl"
+          className="mt-10 max-w-6xl md:text-base text-center text-white mx-auto text-xl"
         >
           Aprende de expertos internacionales y lleva tu práctica al siguiente nivel
           con tecnología y materiales de clase mundial.
