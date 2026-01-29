@@ -46,7 +46,7 @@ export default function Hero() {
             sm:w-[65%] 
             md:w-[55%] 
             lg:w-[50%]
-            mt-16
+            mt-12
           "
         >
           <Image
@@ -99,7 +99,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="
               inline-block 
-              mt-8 
+              mt-5 
               px-8 
               py-4 
               border 
