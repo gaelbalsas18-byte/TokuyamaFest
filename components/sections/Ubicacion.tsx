@@ -48,12 +48,12 @@ export default function Ubicacion() {
               Centro Libanés
             </h3>
 
-            <p className="text-base md:text-2xl leading-relaxed text-purple-800 mb-6">
+            <p className="text-base md:text-base leading-relaxed text-purple-800 mb-6">
               El Tokuyama Fest se llevará a cabo en el <strong>Centro Libanés</strong>,
               uno de los recintos más prestigiosos de la Ciudad de México.
             </p>
 
-            <p className="text-base md:text-2xl leading-relaxed text-purple-800 mb-10">
+            <p className="text-base md:text-base leading-relaxed text-purple-800 mb-10">
               Vive una experiencia académica y profesional en un entorno diseñado
               para el aprendizaje, la innovación y el networking con especialistas
               internacionales.
