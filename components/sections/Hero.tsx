@@ -27,7 +27,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 1.2, y: 70 }}
           animate={{
             opacity: 1,
-            scale: 1.3,
+            scale: 1.2,
             y: [0, -20, 0],
           }}
           transition={{
