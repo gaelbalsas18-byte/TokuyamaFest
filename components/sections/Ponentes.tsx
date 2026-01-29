@@ -14,7 +14,7 @@ const ponentes = [
       "La Dra. Tania Anduaga es licenciada en odontología, egresada del Instituto Politécnico Nacional (IPN). Su ejercicio profesional se orienta a la odontología estética y a la rehabilitación oral bajo principios de mínima invasión y preservación de la estructura dental, integrando criterios clínicos basados en la evidencia científica. Cuenta con experiencia en la práctica privada en la Ciudad de México y participa de manera constante en actividades de educación continua. Ha colaborado como ponente en cursos, diplomados y congresos odontológicos, contribuyendo a la actualización académica de profesionales de la salud bucal. Asimismo, desarrolla labores de divulgación académica a través de plataformas digitales, donde difunde casos clínicos y contenidos educativos enfocados en el fortalecimiento de la práctica clínica y la formación continua del cirujano dentista.",
     
     },
-    
+
   {
     id: 2,
     nombre: "Dr. Noburo",
@@ -125,7 +125,7 @@ export default function Ponentes() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="mt-20 text-center text-purple-900 max-w-7xl mx-auto text-base md:text-xl"
+          className="mt-20 text-center text-purple-900 max-w-7xl mx-auto text-base md:text-base"
         >
           Aprende de expertos internacionales y eleva tu práctica profesional al
           siguiente nivel a través de conferencias, demostraciones y experiencias
