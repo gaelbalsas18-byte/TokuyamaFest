@@ -20,7 +20,8 @@ export default function Hero() {
       <div className="absolute inset-0" />
 
       {/* CONTENIDO */}
-      <div className="relative z-10 max-w-7xl mx-auto px-5 w-full text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-5 w-full text-center pt-16 md:pt-24">
+        {/* 👆 ESTE pt-16 / pt-24 es el control principal */}
 
         {/* IMAGEN SUPERIOR */}
         <motion.div
@@ -46,7 +47,7 @@ export default function Hero() {
             sm:w-[65%] 
             md:w-[55%] 
             lg:w-[50%]
-            mt-12
+            mt-6
           "
         >
           <Image
@@ -55,12 +56,12 @@ export default function Hero() {
             width={1600}
             height={1000}
             priority
-            className="w-full h-auto top-10"
+            className="w-full h-auto"
           />
         </motion.div>
 
         {/* TEXTO */}
-        <div className="mt-6 sm:mt-8 max-w-prose mx-auto text-white">
+        <div className="mt-4 max-w-prose mx-auto text-white">
 
           <motion.h2
             initial={{ opacity: 0, y: 40 }}
@@ -71,8 +72,6 @@ export default function Hero() {
             transition={{ duration: 1.5 }}
             className="
               text-base 
-              sm:text-base 
-              md:text-base
               leading-relaxed
             "
           >
@@ -99,7 +98,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="
               inline-block 
-              mt-5 
+              mt-4 
               px-8 
               py-4 
               border 
