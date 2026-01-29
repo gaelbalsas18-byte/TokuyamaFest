@@ -92,7 +92,7 @@ export default function Ponentes() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-7xl font-bold text-purple-800 text-center"
+          className="text-3xl md:text-5xl font-bold text-purple-800 text-center"
         >
           Ponentes
         </motion.h2>

@@ -81,7 +81,7 @@ export default function Programa() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-3xl font-bold text-white text-center"
+          className="text-3xl md:text-5xl font-bold text-white text-center"
         >
           Programa.
         </motion.h2>
@@ -90,7 +90,7 @@ export default function Programa() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="mt-10 max-w-6xl md:text-base text-center text-white mx-auto text-xl"
+          className="mt-10 max-w-6xl md:text-xl text-center text-white mx-auto text-base "
         >
           Aprende de expertos internacionales y lleva tu práctica al siguiente nivel
           con tecnología y materiales de clase mundial.
@@ -221,7 +221,7 @@ export default function Programa() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="mt-15 max-w-6xl md:text-2xl text-center text-white mx-auto text-xl"
+          className="mt-15 max-w-6xl md:text-xl text-center text-white mx-auto text-base"
         >
         Vive una experiencia educativa única que te permitirá llevar tu práctica al siguiente nivel, descubriendo nuevas técnicas, materiales de última generación y soluciones innovadoras que están transformando el futuro de la odontología a nivel mundial.
         </motion.h2>
