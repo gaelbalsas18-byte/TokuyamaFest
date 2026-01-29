@@ -53,9 +53,9 @@ export default function Hero() {
             src="/Logos/Logot.png"
             alt="Tokuyama Fest Hero"
             width={1600}
-            height={600}
+            height={700}
             priority
-            className="w-full h-auto"
+            className="w-full h-auto top-10"
           />
         </motion.div>
 
