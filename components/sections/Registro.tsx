@@ -199,7 +199,6 @@ export default function Registro() {
                 </a>
               </label>
               
-
               {form.boleto === "Hands On" && (
                 <label className="flex gap-2 text-sm text-white">
                   <input type="checkbox" required
@@ -227,6 +226,45 @@ export default function Registro() {
           )}
         </div>
       </div>
+      {/* ===== FOOTER REGISTRO ===== */}
+                  <div className="relative z-10 mt-32 border-t border-white/30 pt-10">
+                    <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-white">
+
+                      {/* Redes sociales */}
+                      <div className="flex gap-6">
+                        <a
+                          href="https://www.facebook.com/BalsasDentalmx"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:opacity-70 transition"
+                          aria-label="Facebook"
+                        >
+                          <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2V9.5a3 3 0 0 1 3.2-3.3c.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V11h2.6l-.4 3h-2.2v7A10 10 0 0 0 22 12z" />
+                          </svg>
+                        </a>
+
+                        <a
+                          href="https://www.instagram.com/balsasdentalmx/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:opacity-70 transition"
+                          aria-label="Instagram"
+                        >
+                          <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A5.5 5.5 0 1 0 17.5 12 5.5 5.5 0 0 0 12 7.5zm0 9A3.5 3.5 0 1 1 15.5 12 3.5 3.5 0 0 1 12 16.5zM18 6.8a1.2 1.2 0 1 0 1.2 1.2A1.2 1.2 0 0 0 18 6.8z" />
+                          </svg>
+                        </a>
+                      </div>
+
+                      {/* Derechos */}
+                      <p className="text-sm opacity-80 text-center md:text-right">
+                        © {new Date().getFullYear()} Tokuyama Fest.  
+                        Todos los derechos reservados.
+                      </p>
+                    </div>
+                  </div>
     </section>
+    
   );
 }
