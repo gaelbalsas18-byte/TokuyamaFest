@@ -147,6 +147,46 @@ export default function Ponentes() {
               className="fixed inset-0 bg-black z-40"
               onClick={() => setActivo(null)}
             />
+            {/* MODAL MOBILE / TABLET */}
+              <motion.div
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: 50, opacity: 0 }}
+                transition={{ duration: 0.35 }}
+                className="fixed inset-0 z-50 md:hidden overflow-y-auto bg-black"
+              >
+                {/* cerrar */}
+                <button
+                  onClick={() => setActivo(null)}
+                  className="fixed top-4 right-4 z-50 w-10 h-10 rounded-full bg-black/70 text-white flex items-center justify-center"
+                >
+                  ✕
+                </button>
+
+                {/* CONTENIDO */}
+                <div className="min-h-screen bg-white rounded-t-3xl overflow-hidden">
+                  
+                  {/* imagen */}
+                  <img
+                    src={activo.imagenModal}
+                    alt={activo.nombre}
+                    className="w-full h-[45vh] object-cover"
+                  />
+
+                  {/* texto */}
+                  <div className="px-6 py-8">
+                    <img
+                      src={activo.nombreImagen}
+                      alt={activo.nombre}
+                      className="w-[200px] mb-6"
+                    />
+
+                    <p className="text-sm leading-relaxed text-purple-800">
+                      {activo.descripcion}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
 
             {/* MODAL */}
             <motion.div
@@ -209,46 +249,7 @@ export default function Ponentes() {
 
               </div>
             </motion.div>
-                          {/* MODAL MOBILE / TABLET */}
-              <div className="md:hidden">
-                <motion.div
-                  initial={{ y: 40, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: 40, opacity: 0 }}
-                  transition={{ duration: 0.35 }}
-                  className="fixed inset-0 z-50 flex items-center justify-center px-4"
-                >
-                  <div className="relative w-full max-w-md rounded-3xl overflow-hidden bg-white">
-
-                    <button
-                      onClick={() => setActivo(null)}
-                      className="absolute top-3 right-3 z-20 w-9 h-9 rounded-full bg-black/60 text-white flex items-center justify-center"
-                    >
-                      ✕
-                    </button>
-
-                    {/* Imagen */}
-                    <img
-                      src={activo.imagenModal}
-                      alt={activo.nombre}
-                      className="w-full h-[260px] object-cover"
-                    />
-
-                    {/* Texto */}
-                    <div className="p-6 text-purple-900">
-                      <img
-                        src={activo.nombreImagen}
-                        alt={activo.nombre}
-                        className="mb-4 w-[200px]"
-                      />
-
-                      <p className="text-sm leading-relaxed">
-                        {activo.descripcion}
-                      </p>
-                    </div>
-                  </div>
-                </motion.div>
-              </div>
+            
           </>
         )}
       </AnimatePresence>
