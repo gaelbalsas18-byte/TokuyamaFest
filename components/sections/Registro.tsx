@@ -205,7 +205,7 @@ export default function Registro() {
                     onChange={(e) => setForm({ ...form, bases: e.target.checked })} />
                   Acepto las{" "}
                   <a href="#" className="underline hover:text-green-400">
-                    Bases del Evento
+                    Bases del evento
                   </a>
                 </label>
               )}
