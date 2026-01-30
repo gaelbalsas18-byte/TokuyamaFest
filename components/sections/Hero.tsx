@@ -89,7 +89,7 @@ export default function Hero() {
 
           {/* BOTÓN */}
           <motion.a
-            href="https://wa.me/5215610115368?text=Hola%20quiero%20información%20sobre%20las%20entradas%20al%20Tokuyama%20Fest"
+            href="https://wa.me/525568022536?text=Hola%20quiero%20información%20sobre%20las%20entradas%20al%20Tokuyama%20Fest"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}

@@ -149,12 +149,15 @@ export default function Ponentes() {
             />
                           {/* MODAL MOBILE / TABLET */}
               <motion.div
-                initial={{ y: 40, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                exit={{ y: 40, opacity: 0 }}
-                transition={{ duration: 0.35 }}
-                className="fixed inset-0 z-50 md:hidden overflow-y-auto"
-              >
+                  initial={{ scale: 0.92, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  exit={{ scale: 0.85, opacity: 0 }}
+                  transition={{ duration: 0.35, ease: "easeOut" }}
+                  className="
+                    fixed inset-0 z-50 flex items-center justify-center
+                    px-4 sm:px-6
+                  "
+                >
                 {/* cerrar */}
                 <button
                   onClick={() => setActivo(null)}
@@ -164,15 +167,25 @@ export default function Ponentes() {
                 </button>
 
                 {/* CONTENEDOR */}
-                <div className="min-h-screen bg-white rounded-t-3xl overflow-hidden">
-                  
+                                  <div
+                    className="
+                      relative rounded-3xl overflow-hidden w-full
+                      max-w-[92vw] sm:max-w-[85vw] md:max-w-4xl
+                      max-h-[85vh]
+                      bg-black
+                    "
+                  >
                   {/* IMAGEN */}
                   <img
                     src={activo.imagenModal}
                     alt={activo.nombre}
-                    className="w-full h-[45vh] object-cover"
+                    className="
+                      w-full
+                      h-[45vh] md:h-auto
+                      object-cover
+                    "
                   />
-
+                  
                   {/* TEXTO */}
                   <div className="px-6 py-8">
                     <img
