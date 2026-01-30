@@ -147,13 +147,13 @@ export default function Ponentes() {
               className="fixed inset-0 bg-black z-40"
               onClick={() => setActivo(null)}
             />
-            {/* MODAL MOBILE / TABLET */}
+                          {/* MODAL MOBILE / TABLET */}
               <motion.div
-                initial={{ y: 50, opacity: 0 }}
+                initial={{ y: 40, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                exit={{ y: 50, opacity: 0 }}
+                exit={{ y: 40, opacity: 0 }}
                 transition={{ duration: 0.35 }}
-                className="fixed inset-0 z-50 md:hidden overflow-y-auto bg-black"
+                className="fixed inset-0 z-50 md:hidden overflow-y-auto"
               >
                 {/* cerrar */}
                 <button
@@ -163,17 +163,17 @@ export default function Ponentes() {
                   ✕
                 </button>
 
-                {/* CONTENIDO */}
+                {/* CONTENEDOR */}
                 <div className="min-h-screen bg-white rounded-t-3xl overflow-hidden">
                   
-                  {/* imagen */}
+                  {/* IMAGEN */}
                   <img
                     src={activo.imagenModal}
                     alt={activo.nombre}
                     className="w-full h-[45vh] object-cover"
                   />
 
-                  {/* texto */}
+                  {/* TEXTO */}
                   <div className="px-6 py-8">
                     <img
                       src={activo.nombreImagen}
@@ -187,14 +187,13 @@ export default function Ponentes() {
                   </div>
                 </div>
               </motion.div>
-
             {/* MODAL */}
             <motion.div
               initial={{ scale: 0.90, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.6, opacity: 0 }}
               transition={{ duration: 0.35, ease: "easeOut" }}
-              className="fixed inset-0 z-50 flex items-center justify-center px-[6vw]"
+              className="fixed inset-0 z-50 hidden md:flex flex items-center justify-center px-[6vw]"
             >
               <div className="relative rounded-3xl overflow-hidden max-w-4xl w-full">
 
