@@ -187,9 +187,8 @@ export default function Registro() {
               <input required placeholder="Estado de residencia" className="w-full border px-4 py-3 rounded-lg bg-white"
                 onChange={(e) => setForm({ ...form, estado: e.target.value })} />
 
-              <input placeholder="Instagram" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input placeholder="Instagram (Opcional)" className="w-full border px-4 py-3 rounded-lg bg-white"
                 onChange={(e) => setForm({ ...form, instagram: e.target.value })} />
-
 
                 <label className="flex gap-2 text-sm text-white">
                 <input type="checkbox" required
