@@ -209,6 +209,46 @@ export default function Ponentes() {
 
               </div>
             </motion.div>
+                          {/* MODAL MOBILE / TABLET */}
+              <div className="md:hidden">
+                <motion.div
+                  initial={{ y: 40, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: 40, opacity: 0 }}
+                  transition={{ duration: 0.35 }}
+                  className="fixed inset-0 z-50 flex items-center justify-center px-4"
+                >
+                  <div className="relative w-full max-w-md rounded-3xl overflow-hidden bg-white">
+
+                    <button
+                      onClick={() => setActivo(null)}
+                      className="absolute top-3 right-3 z-20 w-9 h-9 rounded-full bg-black/60 text-white flex items-center justify-center"
+                    >
+                      ✕
+                    </button>
+
+                    {/* Imagen */}
+                    <img
+                      src={activo.imagenModal}
+                      alt={activo.nombre}
+                      className="w-full h-[260px] object-cover"
+                    />
+
+                    {/* Texto */}
+                    <div className="p-6 text-purple-900">
+                      <img
+                        src={activo.nombreImagen}
+                        alt={activo.nombre}
+                        className="mb-4 w-[200px]"
+                      />
+
+                      <p className="text-sm leading-relaxed">
+                        {activo.descripcion}
+                      </p>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
           </>
         )}
       </AnimatePresence>
