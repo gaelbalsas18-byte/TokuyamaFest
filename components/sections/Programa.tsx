@@ -198,7 +198,17 @@ export default function Programa() {
           </div>
           
           {/* PANEL DE IMAGENES */}
-         <div className="relative w-[520px] h-[620px] rounded-3xl overflow-hidden shadow-xl">
+         <div
+              className="
+                relative 
+                w-[90vw] 
+                max-w-[520px] 
+                aspect-[5/6]
+                rounded-3xl 
+                overflow-hidden 
+                shadow-xl
+              "
+            >
               <AnimatePresence mode="wait">
                 <motion.img
                   key={activo ?? "default"}
@@ -216,6 +226,7 @@ export default function Programa() {
                 />
               </AnimatePresence>
             </div>
+
         </div>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
