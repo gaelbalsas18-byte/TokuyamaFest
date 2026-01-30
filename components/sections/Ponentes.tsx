@@ -201,22 +201,10 @@ export default function Ponentes() {
                   />
                   <motion.p
                     variants={itemVariants}
-                    className="
-                      text-sm
-                      sm:text-sm
-                      md:text-xs
-                      lg:text-sm
-                      leading-relaxed
-                      sm:leading-relaxed
-                      md:leading-snug
-                      lg:leading-relaxed
-                      opacity-95
-                      max-w-prose
-                    "
+                    className="md:text-xs leading-relaxed opacity-95"
                   >
                     {activo.descripcion}
                   </motion.p>
-
                 </motion.div>
 
               </div>
