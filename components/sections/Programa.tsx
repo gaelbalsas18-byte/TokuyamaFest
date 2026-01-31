@@ -214,7 +214,7 @@ export default function Programa() {
                   key={activo ?? "default"}
                   src={
                     activo === null
-                      ? "/Programa/Dia1.jpg"
+                      ? "/Programa/Dia4.jpg"
                       : programa[activo].imagen
                   }
                   alt="Programa Tokuyama Fest"
