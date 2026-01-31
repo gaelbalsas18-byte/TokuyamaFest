@@ -5,17 +5,6 @@ import { useState } from "react";
 
 const ponentes = [
   {
-    id: 1,
-    nombre: "Dra. Tania",
-    imagen: "/Ponentes/Tania.jpg",
-    imagenModal: "/Ponentes/Tania2.jpg",
-    nombreImagen:"/Ponentes/NombreTania.png",
-    descripcion:
-      "La Dra. Tania Anduaga es licenciada en odontología, egresada del Instituto Politécnico Nacional (IPN). Su ejercicio profesional se orienta a la odontología estética y a la rehabilitación oral bajo principios de mínima invasión y preservación de la estructura dental, integrando criterios clínicos basados en la evidencia científica. Cuenta con experiencia en la práctica privada en la Ciudad de México y participa de manera constante en actividades de educación continua. Ha colaborado como ponente en cursos, diplomados y congresos odontológicos nacional e internacionalmente, contribuyendo a la actualización académica de profesionales de la salud bucal. Asimismo, desarrolla labores de divulgación académica a través de plataformas digitales, donde difunde casos clínicos y contenidos educativos enfocados en el fortalecimiento de la práctica clínica y la formación continua del cirujano dentista.",
-    
-    },
-
-  {
     id: 2,
     nombre: "Dr. Noburo",
     imagen: "/Ponentes/Noburo.jpg",
@@ -100,7 +89,7 @@ export default function Ponentes() {
         </motion.h2>
 
         {/* GRID */}
-        <div className="mt-20 grid grid-cols-3 md:grid-cols-5 gap-6">
+        <div className="mt-20 grid grid-cols-3 md:grid-cols-4 gap-6">
           {ponentes.map((ponente) => (
             <motion.div
               key={ponente.id}
