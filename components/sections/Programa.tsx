@@ -17,7 +17,7 @@ const programa = [
       { hora: "11:30 - 13:30", titulo: "Dr.Newton Fahl- El Arte y la Ciencia de las Obras Maestras en Composite Anterior" },
       { hora: "13:30 - 13:45", titulo: "Break" },
       { hora: "13:45 - 14:45", titulo: "Dr.Takahashi" },
-      { hora: "14:45 - 16:45", titulo: "Dra.Tania" },
+      { hora: "14:45 - 16:45", titulo: "Dr.Mauricio Madera" },
       { hora: "16:45 - 17:00", titulo: "Salida" },
     ],
   },
