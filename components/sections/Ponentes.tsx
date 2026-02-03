@@ -8,7 +8,7 @@ const ponentes = [
     id: 1,
     nombre: "Dr. Mauricio Madera",
     imagen: "",
-    imagenModal: "",
+    imagenModal: "/Ponentes/Mauricio.jpg",
     nombreImagen: "",
     descripcion:
     "El Dr. Mauricio Madera es cirujano dentista egresado de la Universidad Autónoma de Yucatán, con especialidad en rehabilitación oral en São Paulo y formación avanzada en estética dental y resina compuesta. Cuenta con práctica privada en Mérida, Yucatán, donde se enfoca en la rehabilitación oral y la odontología estética, priorizando la naturalidad y biomimética en sus tratamientos. Ha participado como speaker nacional en temas de odontología estética y biomimética, así como en cursos y eventos relacionados con estratificación anterior y manejo de resina compuesta. Es speaker certificado de Tokuyama Dental y completó el Master Course para Líderes de Opinión en Tokuyama Dental, Tokio, Japón. Además, comparte activamente contenido educativo sobre procedimientos estéticos dentales a través de plataformas digitales, reafirmando su compromiso con la actualización continua y la excelencia clínica.",
