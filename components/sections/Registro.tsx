@@ -23,6 +23,15 @@ export default function Registro() {
     instagram: "",
     privacidad: false,
     bases: false,
+     // ===== FACTURACIÓN =====
+    requerirFactura: false,
+    rfc: "",
+    cp: "",
+    razonSocial: "",
+    correoFactura: "",
+    usoCfdi: "",
+    telefonoFactura: "",
+    regimenFiscal: "",
   });
 
   /* ================= VALIDAR CÓDIGO ================= */
@@ -158,7 +167,6 @@ export default function Registro() {
           {/* ====== FORMULARIO ====== */}
           {codigoValido && !enviado && (
             <form onSubmit={enviarFormulario} className="mt-10 space-y-4 text-left">
-
               <p className="text-white text-sm">
                 Tipo de boleto: <strong>{form.boleto}</strong>
               </p>
@@ -198,7 +206,82 @@ export default function Registro() {
                   Aviso de privacidad
                 </a>
               </label>
-              
+
+              <label className="flex gap-2 text-sm text-white">
+                  <input
+                    type="checkbox"
+                    onChange={(e) =>
+                      setForm({ ...form, requerirFactura: e.target.checked })
+                    }
+                  />
+                  ¿Requerir factura?
+                </label>
+
+
+                {form.requerirFactura && (
+                    <div className="space-y-4">
+                      <input
+                        required
+                        placeholder="RFC"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) => setForm({ ...form, rfc: e.target.value })}
+                      />
+
+                      <input
+                        required
+                        placeholder="Código Postal"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) => setForm({ ...form, cp: e.target.value })}
+                      />
+
+                      <input
+                        required
+                        placeholder="Razón social o nombre"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) =>
+                          setForm({ ...form, razonSocial: e.target.value })
+                        }
+                      />
+
+                      <input
+                        required
+                        type="email"
+                        placeholder="Correo de facturación"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) =>
+                          setForm({ ...form, correoFactura: e.target.value })
+                        }
+                      />
+
+                      <input
+                        required
+                        placeholder="Uso de CFDI"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) =>
+                          setForm({ ...form, usoCfdi: e.target.value })
+                        }
+                      />
+
+                      <input
+                        required
+                        placeholder="Teléfono de facturación"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) =>
+                          setForm({ ...form, telefonoFactura: e.target.value })
+                        }
+                      />
+
+                      <input
+                        required
+                        placeholder="Régimen Fiscal"
+                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        onChange={(e) =>
+                          setForm({ ...form, regimenFiscal: e.target.value })
+                        }
+                      />
+                    </div>
+                  )}
+
               {form.boleto === "Hands On" && (
                 <label className="flex gap-2 text-sm text-white">
                   <input type="checkbox" required
@@ -209,7 +292,6 @@ export default function Registro() {
                   </a>
                 </label>
               )}
-
               <button
                 disabled={loading}
                 className="w-full bg-green-600 text-white py-3 rounded-lg"
@@ -218,7 +300,6 @@ export default function Registro() {
               </button>
             </form>
           )}
-
           {enviado && (
             <div className="mt-10 text-green-400 text-xl font-semibold">
               ✅ Registro completado correctamente
@@ -229,7 +310,6 @@ export default function Registro() {
       {/* ===== FOOTER REGISTRO ===== */}
                   <div className="relative z-10 mt-32 border-t border-white/30 pt-10">
                     <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-white">
-
                       {/* Redes sociales */}
                       <div className="flex gap-6">
                         <a
@@ -243,7 +323,6 @@ export default function Registro() {
                             <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2V9.5a3 3 0 0 1 3.2-3.3c.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V11h2.6l-.4 3h-2.2v7A10 10 0 0 0 22 12z" />
                           </svg>
                         </a>
-
                         <a
                           href="https://www.instagram.com/balsasdentalmx/"
                           target="_blank"
@@ -256,7 +335,6 @@ export default function Registro() {
                           </svg>
                         </a>
                       </div>
-
                       {/* Derechos */}
                       <p className="text-sm opacity-80 text-center md:text-right">
                         © {new Date().getFullYear()} Tokuyama Fest.  
@@ -265,6 +343,5 @@ export default function Registro() {
                     </div>
                   </div>
     </section>
-    
   );
 }

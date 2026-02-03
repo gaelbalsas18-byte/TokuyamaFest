@@ -118,7 +118,6 @@ export default function Ponentes() {
             </motion.div>
           ))}
         </div>
-
         {/* TEXTO INFERIOR */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -146,7 +145,7 @@ export default function Ponentes() {
               className="fixed inset-0 bg-black z-40"
               onClick={() => setActivo(null)}
             />
-                          {/* MODAL MOBILE / TABLET */}
+            {/* MODAL MOBILE / TABLET */}
               <motion.div
                 initial={{ y: 40, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -244,7 +243,6 @@ export default function Ponentes() {
                     {activo.descripcion}
                   </motion.p>
                 </motion.div>
-
               </div>
             </motion.div>
           </>
