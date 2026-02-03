@@ -5,6 +5,16 @@ import { useState } from "react";
 
 const ponentes = [
   {
+    id: 1,
+    nombre: "Dr.",
+    imagen: "",
+    imagenModal: "",
+    nombreImagen: "",
+    descripcion:
+    "",
+  },
+
+  {
     id: 2,
     nombre: "Dr. Noburo",
     imagen: "/Ponentes/Noburo.jpg",
@@ -89,7 +99,7 @@ export default function Ponentes() {
         </motion.h2>
 
         {/* GRID */}
-        <div className="mt-20 grid grid-cols-3 md:grid-cols-4 gap-6">
+        <div className="mt-20 grid grid-cols-3 md:grid-cols-5 gap-6">
           {ponentes.map((ponente) => (
             <motion.div
               key={ponente.id}
