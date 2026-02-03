@@ -247,7 +247,6 @@ export default function Ponentes() {
 
               </div>
             </motion.div>
-            
           </>
         )}
       </AnimatePresence>
