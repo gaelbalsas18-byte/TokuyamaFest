@@ -64,7 +64,7 @@ export default function Navbar() {
               priority
             />
 
-            <div className="translate-y-[7px]">
+            <div className="translate-y-[10px]">
               <Image
                 src="/Logos/Tokuyamat.png"
                 alt="Tokuyama Fest"
