@@ -56,21 +56,25 @@ export default function Navbar() {
 
         {/* LOGOS (MISMA ESTRUCTURA) */}
         <div className="flex items-center gap-2">
-          <Image
-            src="/Logos/BalsasTrans.png"
-            alt="Tokuyama Fest"
-            width={60}
-            height={45}
-            priority
-          />
-          <Image
-            src="/Logos/Tokuyamat.png"
-            alt="Tokuyama Fest"
-            width={140}
-            height={90}
-            priority
-          />
-        </div>
+            <Image
+              src="/Logos/BalsasTrans.png"
+              alt="Balsas Dental"
+              width={60}
+              height={45}
+              priority
+            />
+
+            <div className="translate-y-[2px]">
+              <Image
+                src="/Logos/Tokuyamat.png"
+                alt="Tokuyama Fest"
+                width={140}
+                height={90}
+                priority
+              />
+            </div>
+          </div>
+
 
         {/* MENU DESKTOP (IGUAL) */}
         <div className="hidden md:flex gap-16 text-white absolute left-1/2 -translate-x-1/2">
