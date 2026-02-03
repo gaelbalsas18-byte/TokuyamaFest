@@ -69,7 +69,7 @@ export default function Navbar() {
             </div>
 
             {/* Logo Tokuyama */}
-            <div className="relative h-10 w-32 md:h-12 md:w-44">
+            <div className="relative h-15 w-16 md:h-12 md:w-24">
               <Image
                 src="/Logos/Tokuyamat.png"
                 alt="Tokuyama Fest"
