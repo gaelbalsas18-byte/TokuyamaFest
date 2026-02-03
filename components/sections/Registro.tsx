@@ -217,7 +217,6 @@ export default function Registro() {
                   ¿Requerir factura?
                 </label>
 
-
                 {form.requerirFactura && (
                     <div className="space-y-4">
                       <input
