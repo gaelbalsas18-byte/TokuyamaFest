@@ -55,32 +55,22 @@ export default function Navbar() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
 
         {/* LOGOS (MISMA ESTRUCTURA) */}
-          <div className="flex items-center gap-3">
-
-            {/* Logo Balsas */}
-            <div className="relative h-10 w-16 md:h-12 md:w-20">
-              <Image
-                src="/Logos/BalsasTrans.png"
-                alt="Balsas Dental"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-
-            {/* Logo Tokuyama */}
-            <div className="relative h-15 w-16 md:h-12 md:w-24">
-              <Image
-                src="/Logos/Tokuyamat.png"
-                alt="Tokuyama Fest"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-
-          </div>
-
+        <div className="flex items-center gap-2">
+          <Image
+            src="/Logos/BalsasTrans.png"
+            alt="Tokuyama Fest"
+            width={60}
+            height={45}
+            priority
+          />
+          <Image
+            src="/Logos/Tokuyamat.png"
+            alt="Tokuyama Fest"
+            width={140}
+            height={90}
+            priority
+          />
+        </div>
 
         {/* MENU DESKTOP (IGUAL) */}
         <div className="hidden md:flex gap-16 text-white absolute left-1/2 -translate-x-1/2">
