@@ -7,7 +7,7 @@ const ponentes = [
   {
     id: 1,
     nombre: "Dr. Mauricio Madera",
-    imagen: "/Ponentes/TF_FOTO_Mau2.jpg",
+    imagen: "/Ponentes/TF_Foto_Mau2.jpg",
     imagenModal: "/Ponentes/Mauricio.jpg",
     nombreImagen: "/Ponentes/NombreMauricio.png",
     descripcion: 
