@@ -164,8 +164,8 @@ export default function Programa() {
                             <a
                               href={
                                 index === 1
-                                  ? "/pdf/materiales-dia2.pdf"
-                                  : "/pdf/materiales-dia3.pdf"
+                                  ? "#"
+                                  : "#"
                               }
                               target="_blank"
                               rel="noopener noreferrer"
@@ -177,8 +177,8 @@ export default function Programa() {
                             <a
                               href={
                                 index === 1
-                                  ? "/pdf/bases-dia2.pdf"
-                                  : "/pdf/bases-dia3.pdf"
+                                  ? "#"
+                                  : "#"
                               }
                               target="_blank"
                               rel="noopener noreferrer"
