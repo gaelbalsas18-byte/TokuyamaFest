@@ -90,7 +90,6 @@ export default function Registro() {
         }
       );
 
-      
       const data = await res.json();
 
       if (!data.success) {
