@@ -77,6 +77,7 @@ export default function Registro() {
     e.preventDefault();
     setLoading(true);
 
+
     try {
       const res = await fetch(
         "https://script.google.com/macros/s/AKfycbzdUcx2JGuWWXuKByPoLbl8Ov6o0nDk-GFAKF5ttO-lgTheh2qlztZs4cvE7GFlrz3k/exec",
@@ -341,6 +342,7 @@ export default function Registro() {
                       </p>
                     </div>
                   </div>
+                  
     </section>
   );
 }
