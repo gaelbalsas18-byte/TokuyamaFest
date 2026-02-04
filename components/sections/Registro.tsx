@@ -343,7 +343,6 @@ export default function Registro() {
                     </div>
                   </div>
 
-
     </section>
   );
 }
