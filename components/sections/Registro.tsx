@@ -39,7 +39,7 @@ export default function Registro() {
     if (!form.codigo) return;
 
     setLoading(true);
-    
+
     try {
       const res = await fetch(
         "https://script.google.com/macros/s/AKfycbzdUcx2JGuWWXuKByPoLbl8Ov6o0nDk-GFAKF5ttO-lgTheh2qlztZs4cvE7GFlrz3k/exec",
@@ -90,6 +90,7 @@ export default function Registro() {
         }
       );
 
+      
       const data = await res.json();
 
       if (!data.success) {
