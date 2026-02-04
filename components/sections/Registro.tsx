@@ -72,6 +72,7 @@ export default function Registro() {
     }
   };
 
+  
   /* ================= ENVIAR FORMULARIO ================= */
   const enviarFormulario = async (e: React.FormEvent) => {
     e.preventDefault();
