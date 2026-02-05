@@ -100,7 +100,7 @@ export default function Programa() {
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
           
           {/* LISTA PROGRAMA */}
-          <div className="lg:max-w-lg">
+          <div className="w-full lg:max-w-2xl">
             <div className="space-y-8">
               {programa.map((dia, index) => {
                 const isOpen = activo === index;
