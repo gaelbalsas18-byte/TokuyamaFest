@@ -146,21 +146,12 @@ export default function Programa() {
                         >
                           <ul className="space-y-3">
                             {dia.actividades.map((act, i) => (
-                        <li
+                       <li
                           key={i}
-                          className="flex items-start gap-4 text-white/90"
+                          className="grid grid-cols-[120px_1fr] gap-4 text-white/90"
                         >
                           {/* HORA */}
-                          <span
-                            className="
-                              font-mono 
-                              text-white 
-                              text-sm 
-                              md:text-base 
-                              min-w-[110px] 
-                              text-right
-                            "
-                          >
+                          <span className="font-mono text-white text-sm md:text-base leading-tight">
                             {act.hora}
                           </span>
 
@@ -169,6 +160,7 @@ export default function Programa() {
                             {act.titulo}
                           </span>
                         </li>
+
 
                             ))}
                           </ul>
