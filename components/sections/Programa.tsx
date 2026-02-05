@@ -100,7 +100,7 @@ export default function Programa() {
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
           
           {/* LISTA PROGRAMA */}
-          <div className="w-full lg:max-w-2xl">
+          <div className="lg:max-w-lg">
             <div className="space-y-8">
               {programa.map((dia, index) => {
                 const isOpen = activo === index;
@@ -146,22 +146,15 @@ export default function Programa() {
                         >
                           <ul className="space-y-3">
                             {dia.actividades.map((act, i) => (
-                       <li
-                        key={i}
-                        className="grid grid-cols-[90px_1fr] md:grid-cols-[120px_1fr] gap-4 text-white/90"
-                      >
-                        {/* HORA */}
-                        <div className="font-mono text-white text-sm md:text-base leading-tight text-right">
-                          <div>{act.hora.split(" - ")[0]}</div>
-                          <div>- {act.hora.split(" - ")[1]}</div>
-                        </div>
-
-                        {/* TÍTULO */}
-                        <span className="text-sm md:text-lg leading-relaxed">
-                          {act.titulo}
-                        </span>
-                      </li>
-
+                              <li
+                                key={i}
+                                className="flex gap-4 text-white/90 text-lg"
+                              >
+                                <span className="font-mono text-white">
+                                  {act.hora}
+                                </span>
+                                <span>{act.titulo}</span>
+                              </li>
                             ))}
                           </ul>
                           {/* BOTONES SOLO DÍA 2 Y 3 */}
