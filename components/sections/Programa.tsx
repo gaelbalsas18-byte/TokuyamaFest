@@ -148,13 +148,19 @@ export default function Programa() {
                             {dia.actividades.map((act, i) => (
                               <li
                                 key={i}
-                                className="flex gap-4 text-white/90 text-lg"
+                                className="flex gap-4 text-white/90"
                               >
-                                <span className="font-mono text-white">
+                                {/* HORA */}
+                                <span className="font-mono text-white text-sm md:text-base min-w-[110px]">
                                   {act.hora}
                                 </span>
-                                <span>{act.titulo}</span>
+
+                                {/* TÍTULO */}
+                                <span className="text-base md:text-lg leading-relaxed">
+                                  {act.titulo}
+                                </span>
                               </li>
+
                             ))}
                           </ul>
                           {/* BOTONES SOLO DÍA 2 Y 3 */}
