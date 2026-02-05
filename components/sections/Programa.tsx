@@ -134,7 +134,6 @@ export default function Programa() {
                         ▼
                       </motion.span>
                     </button>
-
                     <AnimatePresence>
                       {isOpen && (
                         <motion.div
@@ -148,13 +147,16 @@ export default function Programa() {
                             {dia.actividades.map((act, i) => (
                               <li
                                 key={i}
-                                className="flex gap-4 text-white/90 text-lg"
-                              >
-                                <span className="font-mono text-white">
-                                  {act.hora}
-                                </span>
-                                <span>{act.titulo}</span>
-                              </li>
+                                  className="grid grid-cols-[110px_1fr] md:grid-cols-[130px_1fr] gap-4 text-white/90"
+                                >
+                                  <span className="font-mono text-white text-sm md:text-base text-right tracking-wide">
+                                    {act.hora}
+                                  </span>
+
+                                  <span className="text-sm md:text-lg leading-relaxed">
+                                    {act.titulo}
+                                  </span>
+                                </li>
                             ))}
                           </ul>
                           {/* BOTONES SOLO DÍA 2 Y 3 */}
@@ -173,7 +175,6 @@ export default function Programa() {
                             >
                               Materiales
                             </a>
-
                             <a
                               href={
                                 index === 1
@@ -195,8 +196,7 @@ export default function Programa() {
                 );
               })}
             </div>
-          </div>
-          
+          </div>         
           {/* PANEL DE IMAGENES */}
          <div
               className="
