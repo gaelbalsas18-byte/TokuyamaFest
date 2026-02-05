@@ -146,20 +146,29 @@ export default function Programa() {
                         >
                           <ul className="space-y-3">
                             {dia.actividades.map((act, i) => (
-                              <li
-                                key={i}
-                                className="flex gap-4 text-white/90"
-                              >
-                                {/* HORA */}
-                                <span className="font-mono text-white text-sm md:text-base min-w-[110px]">
-                                  {act.hora}
-                                </span>
+                        <li
+                          key={i}
+                          className="flex items-start gap-4 text-white/90"
+                        >
+                          {/* HORA */}
+                          <span
+                            className="
+                              font-mono 
+                              text-white 
+                              text-sm 
+                              md:text-base 
+                              min-w-[110px] 
+                              text-right
+                            "
+                          >
+                            {act.hora}
+                          </span>
 
-                                {/* TÍTULO */}
-                                <span className="text-base md:text-lg leading-relaxed">
-                                  {act.titulo}
-                                </span>
-                              </li>
+                          {/* TÍTULO */}
+                          <span className="text-sm md:text-lg leading-relaxed">
+                            {act.titulo}
+                          </span>
+                        </li>
 
                             ))}
                           </ul>
