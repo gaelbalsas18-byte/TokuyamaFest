@@ -158,7 +158,7 @@ export default function Registro() {
               <button
                 onClick={validarCodigo}
                 disabled={loading}
-                className="w-full border border-white text-black py-3 rounded-lg uppercase tracking-wide hover:bg-white hover:text-black transition-all"
+                className="w-full border border-white text-white py-3 rounded-lg uppercase tracking-wide hover:bg-white hover:text-black transition-all"
               >
                 {loading ? "Validando..." : "Validar código"}
               </button>
@@ -175,28 +175,28 @@ export default function Registro() {
               <input required placeholder="Nombre" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, nombre: e.target.value })} />
 
-              <input required placeholder="Apellido paterno" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required placeholder="Apellido paterno" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, apellidoPaterno: e.target.value })} />
 
-              <input required placeholder="Apellido materno" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required placeholder="Apellido materno" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, apellidoMaterno: e.target.value })} />
 
-              <input required type="email" placeholder="Correo" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required type="email" placeholder="Correo" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, email: e.target.value })} />
 
-              <input required placeholder="Teléfono" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required placeholder="Teléfono" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, telefono: e.target.value })} />
 
-              <input placeholder="Cédula Profesional (Opcional)" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input placeholder="Cédula Profesional (Opcional)" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, cedula: e.target.value })} />
 
-              <input required placeholder="¿Alguna alergia?" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required placeholder="¿Alguna alergia?" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, alergias: e.target.value })} />
 
-              <input required placeholder="Estado de residencia" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required placeholder="Estado de residencia" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, estado: e.target.value })} />
 
-              <input placeholder="Instagram (Opcional)" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input placeholder="Instagram (Opcional)" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, instagram: e.target.value })} />
 
                 <label className="flex gap-2 text-sm text-white">
@@ -223,21 +223,21 @@ export default function Registro() {
                       <input
                         required
                         placeholder="RFC"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) => setForm({ ...form, rfc: e.target.value })}
                       />
 
                       <input
                         required
                         placeholder="Código Postal"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) => setForm({ ...form, cp: e.target.value })}
                       />
 
                       <input
                         required
                         placeholder="Razón social o nombre"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) =>
                           setForm({ ...form, razonSocial: e.target.value })
                         }
@@ -247,7 +247,7 @@ export default function Registro() {
                         required
                         type="email"
                         placeholder="Correo de facturación"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) =>
                           setForm({ ...form, correoFactura: e.target.value })
                         }
@@ -256,7 +256,7 @@ export default function Registro() {
                       <input
                         required
                         placeholder="Uso de CFDI"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) =>
                           setForm({ ...form, usoCfdi: e.target.value })
                         }
@@ -265,7 +265,7 @@ export default function Registro() {
                       <input
                         required
                         placeholder="Teléfono de facturación"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) =>
                           setForm({ ...form, telefonoFactura: e.target.value })
                         }
@@ -274,7 +274,7 @@ export default function Registro() {
                       <input
                         required
                         placeholder="Régimen Fiscal"
-                        className="w-full border px-4 py-3 rounded-lg bg-white"
+                        className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                         onChange={(e) =>
                           setForm({ ...form, regimenFiscal: e.target.value })
                         }
