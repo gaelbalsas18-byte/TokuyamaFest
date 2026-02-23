@@ -149,7 +149,7 @@ export default function Registro() {
             <div className="space-y-4">
               <input
                 placeholder="Código de acceso"
-                className="w-full border px-4 py-3 rounded-lg bg-white"
+                className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) =>
                   setForm({ ...form, codigo: e.target.value.trim().toUpperCase() })
                 }
@@ -158,7 +158,7 @@ export default function Registro() {
               <button
                 onClick={validarCodigo}
                 disabled={loading}
-                className="w-full border border-white text-white py-3 rounded-lg uppercase tracking-wide hover:bg-white hover:text-black transition-all"
+                className="w-full border border-white text-black py-3 rounded-lg uppercase tracking-wide hover:bg-white hover:text-black transition-all"
               >
                 {loading ? "Validando..." : "Validar código"}
               </button>
@@ -172,7 +172,7 @@ export default function Registro() {
                 Tipo de boleto: <strong>{form.boleto}</strong>
               </p>
 
-              <input required placeholder="Nombre" className="w-full border px-4 py-3 rounded-lg bg-white"
+              <input required placeholder="Nombre" className="w-full border px-4 py-3 rounded-lg bg-white text-black"
                 onChange={(e) => setForm({ ...form, nombre: e.target.value })} />
 
               <input required placeholder="Apellido paterno" className="w-full border px-4 py-3 rounded-lg bg-white"
