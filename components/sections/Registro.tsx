@@ -208,7 +208,9 @@ export default function Registro() {
                 </a>
               </label>
 
-              <label className="flex gap-2 text-sm text-white">
+              {/* factura */}
+              {form.boleto !== "Beca" && (
+                <label className="flex gap-2 text-sm text-white">
                   <input
                     type="checkbox"
                     onChange={(e) =>
@@ -217,6 +219,7 @@ export default function Registro() {
                   />
                   ¿Requerir factura?
                 </label>
+              )}
 
                 {form.requerirFactura && (
                     <div className="space-y-4">
