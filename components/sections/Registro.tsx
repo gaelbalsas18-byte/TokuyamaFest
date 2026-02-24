@@ -282,7 +282,7 @@ export default function Registro() {
                     </div>
                   )}
 
-              {form.boleto === "Hands On" && (
+              {(form.boleto === "Hands On" || form.boleto === "Beca") && (
                 <label className="flex gap-2 text-sm text-white">
                   <input type="checkbox" required
                     onChange={(e) => setForm({ ...form, bases: e.target.checked })} />
