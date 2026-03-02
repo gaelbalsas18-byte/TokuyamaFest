@@ -176,11 +176,7 @@ export default function Programa() {
                               Materiales
                             </a>
                             <a
-                              href={
-                                index === 1
-                                  ? "#"
-                                  : "#"
-                              }
+                              href="/bases.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="px-6 py-2 border border-white text-white text-sm uppercase tracking-wide rounded-lg hover:bg-white hover:text-black transition-all"
