@@ -164,11 +164,7 @@ export default function Programa() {
                           <div className="mt-6 flex gap-4">
                             
                             <a
-                              href={
-                                index === 1
-                                  ? "#"
-                                  : "#"
-                              }
+                              href="/Material.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="px-6 py-2 border border-white text-white text-sm uppercase tracking-wide rounded-lg hover:bg-white hover:text-black transition-all"
