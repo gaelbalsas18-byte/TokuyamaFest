@@ -11,14 +11,15 @@ const programa = [
     imagen: "/Programa/Dia1.jpg",
     actividades: [
       { hora: "07:00 - 09:00", titulo: "Registro" },
-      { hora: "09:00 - 10:00", titulo: "Dr. Yoshitaka Nijtomi - “Omnichroma, la solución versatil para multiples casos" },
-      { hora: "10:00 - 11:00", titulo: "Dr. Hugo Cornejo - “El rol de los adhesivos universales en la práctica odontológica actual"},
-      { hora: "11:00 - 11:30", titulo: "Break" },
-      { hora: "11:30 - 13:30", titulo: "Prof. Newton Fahl - “El Arte y la Ciencia de las Obras Maestras en Composite Anterior" },
-      { hora: "13:30 - 13:45", titulo: "Break" },
-      { hora: "13:45 - 14:45", titulo: "Dr. Mauricio Madera - “La versatilidad de la resina compuesta en el sector anterior" },
-      { hora: "14:45 - 16:45", titulo: "Dr. Noboru Takahashi - “Optimización de restauraciones posteriores (estética y función en equilibrio)" },
-      { hora: "16:45 - 17:00", titulo: "Salida" },
+      { hora: "09:00 - 09:30", titulo: "Inauguración" },
+      { hora: "09:30 - 10:30", titulo: "Conferencia - Dr. Yoshitaka Nijitomi - Omnichroma, la solución versátil para múltiples casos"},
+      { hora: "10:30 - 11:30", titulo: "Conferencia - Dr. Hugo Cornejo - El rol de los adhesivos universales en la práctica odontológica actual" },
+      { hora: "11:30 - 12:20", titulo: "Break" },
+      { hora: "12:20 - 14:20", titulo: "Conferencia - Prof. Newton Fahl - El Arte y la Ciencia de las Obras Maestras en Composite Anterior" },
+      { hora: "14:20 - 15:00", titulo: "Break" },
+      { hora: "15:00 - 16:00", titulo: "Dr. Noboru Takahashi - “Optimización de restauraciones posteriores (estética y función en equilibrio)" },
+      { hora: "16:00 - 17:00", titulo: "Conferencia - Clínica Supreme - Cementación de Carillas de Porcelana con Protocolo de Cementación" },
+      { hora: "17:00 - 18:00", titulo: "Conferencia - Dr. Mauricio Madera - La versatilidad de la resina compuesta en el sector anterior"}
     ],
   },
 
