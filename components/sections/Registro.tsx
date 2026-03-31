@@ -221,6 +221,10 @@ export default function Registro() {
                 </label>
               )}
 
+              <p className="text-white text-lg font-semibold">
+                La factura solamnete es valida si realiza el registro dentro del mes en que se realizo su primer pago
+              </p>
+
                 {form.requerirFactura && (
                     <div className="space-y-4">
                       <input
