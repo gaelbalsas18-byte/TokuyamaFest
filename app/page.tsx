@@ -4,6 +4,7 @@ import Programa from "@/components/sections/Programa";
 import Ubicacion from "@/components/sections/Ubicacion";
 import Registro from "@/components/sections/Registro";
 
+
 export default function Home() {
   return (
     <main>
@@ -16,7 +17,8 @@ export default function Home() {
                             {/*Seccion Ubicacion*/}
                                   <Ubicacion/>
                                   {/*Seccion Registro*/}
-                                        <Registro/>             
+                                        <Registro/>     
+                                              
     </main>
   );
 }

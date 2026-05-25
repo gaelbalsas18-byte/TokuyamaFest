@@ -111,7 +111,7 @@ export default function Hero() {
               duration-300
             "
           >
-            Entrada
+            Solicitar Informacion
           </motion.a>
 
         </div>

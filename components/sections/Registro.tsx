@@ -42,7 +42,7 @@ export default function Registro() {
 
     try {
       const res = await fetch(
-        "https://script.google.com/macros/s/AKfycbxMogCrM4Z7nGL_WgTHpBRsZNy3mW4uIzg8jDuCUluR4vOlmfXZx-hqm_SvnjiiTYjc/exec",
+        "https://script.google.com/macros/s/AKfycbxFez3u3l6XLUpgFBLg9gFp_Z4mkB6IhWang78MQElmJBraVThEIZfuJtFQrFn274Yk/exec",
         {
           method: "POST",
           body: JSON.stringify({
@@ -80,7 +80,7 @@ export default function Registro() {
 
     try {
       const res = await fetch(
-        "https://script.google.com/macros/s/AKfycbxMogCrM4Z7nGL_WgTHpBRsZNy3mW4uIzg8jDuCUluR4vOlmfXZx-hqm_SvnjiiTYjc/exec",
+        "https://script.google.com/macros/s/AKfycbxFez3u3l6XLUpgFBLg9gFp_Z4mkB6IhWang78MQElmJBraVThEIZfuJtFQrFn274Yk/exec",
         {
           method: "POST",
           body: JSON.stringify({
